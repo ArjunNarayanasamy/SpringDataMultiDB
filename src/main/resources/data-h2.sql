@@ -1,0 +1,5 @@
+INSERT INTO Queries (id, query, usecase) VALUES (1, 'SELECT * FROM TCA_CASE WHERE APLN_NUM = ?','uc1');
+INSERT INTO Queries (id, query, usecase) VALUES (2, 'SELECT POLICY_NUMBER, USECASE FROM TCA_CASE WHERE APLN_NUM = ?','uc1');
+INSERT INTO Queries (id, query, usecase) VALUES (3, 'SELECT POLICY_NUMBER FROM TCA_CASE WHERE APLN_NUM = ?','uc2');
+INSERT INTO Queries (id, query, usecase) VALUES (4, 'SELECT USECASE FROM TCA_CASE WHERE APLN_NUM = ?','uc2');
+INSERT INTO Queries (id, query, usecase) VALUES (5, 'SELECT POLICY FROM TCA_CASE WHERE APLN_NUM = ?','uc3');
